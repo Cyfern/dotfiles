@@ -24,8 +24,8 @@ return {
 			color_overrides = {
 				mocha = {
 					base = "#111111",
-					mantle = "#111111",
-					crust = "#111111",
+					mantle = "#0e0e0e",
+					crust = "#080808",
 				},
 			},
 			integrations = {
@@ -37,6 +37,10 @@ return {
 					enabled = true,
 					color_mode = true,
 				},
+        mason = {
+          enabled = true,
+          style = "nvchad",
+        },
 			},
     },
   },
